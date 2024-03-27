@@ -1,0 +1,78 @@
+/*reset........*/
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ccc;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 30px; 
+    color: #333;
+}
+
+.wrapper{
+    background-color: #fff;
+    width: 650px;
+    margin: 60px auto;
+}
+
+header{
+    height: 75px;
+    background-image: url("../img/redHeader.png");
+    position: relative;
+
+}
+
+main{
+    padding: 10px;
+}
+
+main p{
+    margin-bottom: 15px;
+}
+
+.new{
+    position:absolute;
+    right: 0;
+    /*left: 0;*/
+    top: 0;
+    transform: rotate(90deg);
+}
+
+.button{
+    position: absolute;
+    left: 50%;
+    top: -14px;
+    transform: translateX(-50%);
+    z-index: 11;
+}
+
+.oper{
+    position: fixed;
+    top: 300px;
+    left: 0;
+}
+
+.rel_p{
+    position: relative;
+    top: 5px;
+    left: 5px;
+} 
+
+.stic_p{
+    background-color: rgba(12, 164, 113, 0.727);
+    position: sticky;
+    top: 0;
+}
+
+.bird{
+    position: absolute;
+    left: 40%;
+    top: -45px;
+    z-index: 10 ;
+}
